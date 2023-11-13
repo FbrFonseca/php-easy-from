@@ -1,0 +1,36 @@
+body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color:#0C356A;
+}
+._hero {
+    color: white;
+    /* background-repeat: no-repeat;
+    background-image: url("angel.jpg"); */
+    height: 100vh;
+    width: 100vw;
+    /* overflow: hidden;
+    background-position: top;
+    background-size: cover; */
+}
+
+.first {
+    color: #0C356A;
+    background-color: #0C356A;
+}
+
+.second {
+    color: #279EFF;
+    background-color: #279EFF;
+}
+
+.third {
+    color: #40F8FF;
+    background-color: #40F8FF;
+}
+
+.forth {
+    color: #D5FFD0;
+    background-color: #D5FFD0;
+}
