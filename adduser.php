@@ -4,21 +4,24 @@ include "head.php";
 $name = "";
 $surname = "";
 $email = "";
+$password = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $name = $_POST["name"];
     $surname = $_POST["surname"];
     $email = $_POST["email"];
+    $password = $_POST["password"];
 
-    $sql = "INSERT INTO user_table(name, surname, email) VALUES('$name', '$surname', '$email')";
+    $sql = "INSERT INTO user_table(name, surname, email, password) VALUES('$name', '$surname', '$email', '$password')";
     $result = $con->query($sql);
 
     $name = "";
     $surname = "";
     $email = "";
+    $password = "";
 
-    //header("Location: index.php");
+    header("Location: adduser.php");
     exit;
 }
 
@@ -27,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html lang="en">
 
-
+<?php include "header.php" ?>
 
 <body>
     <form method="POST">
@@ -46,7 +49,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <h3>Email</h3>
             <input type="text" name="email" value="<?php echo $email; ?>">
         </div>
-        <button type="submit" class="btn btn-primary">Primary</button>
+
+        <div>
+            <h3>Password</h3>
+            <input type="text" name="password" value="<?php echo $password; ?>">
+        </div>
+        <button type="submit" class="btn btn-primary">Add</button>
     </form>
 
     

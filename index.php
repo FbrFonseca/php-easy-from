@@ -19,13 +19,13 @@ $data = $result->fetch_all(MYSQLI_ASSOC);
 $con->close();
 ?>
 
-<!DOCTYPE html>
+
 <html lang="en">
 
 <body>
     <?php include "header.php"; ?>
-    <main>
-        <?php include "hero.php"; ?>
+    <main class="text-white">
+        <?php echo json_encode($data); ?>
     </main>
     <?php include "footer.php"; ?>
 </body>

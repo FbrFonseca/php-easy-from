@@ -16,10 +16,10 @@
           <a class="nav-link active" href="#">Forms</a>
         </li>
         <li class="nav-item ml-auto">
-          <a class="nav-link active" aria-current="page" href="#">Login</a>
+          <a class="nav-link active" aria-current="page" href="login.php">Login</a>
         </li>
         <li class="nav-item ml-auto">
-          <a class="nav-link active" aria-current="page" href="#">Sign-up</a>
+          <a class="nav-link active" aria-current="page" href="adduser.php">Sign-up</a>
         </li>
       </ul>
 
