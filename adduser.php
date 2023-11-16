@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST["password"];
 
     $sql = "INSERT INTO user_table(name, surname, email, password) VALUES('$name', '$surname', '$email', '$password')";
-    $result = $con->query($sql);
+    $result = $con->query($sql); //rever
 
     $name = "";
     $surname = "";

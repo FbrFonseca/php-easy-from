@@ -10,32 +10,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST["password"];
 
     //checking credentials
-
     $query = "SELECT userID, email, password FROM user_table WHERE email = '$email'";
     $result = $con->query($query);
 
+    //looking for only one account
     if ($result->num_rows == 1) {
         $row = $result->fetch_assoc();
 
         //password check
-        if (password_verify($password, $row["password"])) {
-
-            echo "Hashed Password from Database: " . $row["password"] . "<br>";
+        if ($result->num_rows == 1) {
+            $row = $result->fetch_assoc();
             $_SESSION["userID"] = $row["userID"];
             $_SESSION["email"] = $row["email"];
-
+    
             header("location: index.php");
             exit();
-            
         } else {
-            echo "User-Entered Password: " . $password . "<br>";
-            echo "Hashed Password from Database: " . $row["password"] . "<br>";
-            $error = "Wrong password.";
+            $error = "Invalid login credentials.";
         }
+
 
     } else {
         $error =  "Wrong email.";
     }
+
+    
 }
 
 $con->close();
