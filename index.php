@@ -19,7 +19,7 @@ $data = $result->fetch_all(MYSQLI_ASSOC);
 $con->close();
 ?>
 
-
+<!-- check better way to assemble the app -->
 <html lang="en">
 
 <body>
