@@ -1,6 +1,6 @@
 <?php include "connect.php";
 include "head.php";
-
+// maybe separete all php from app layout files
 // con check
 if ($con->connect_error) {
     die("Connection failed: " . $con->connect_error);
