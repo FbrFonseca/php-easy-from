@@ -26,10 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ?>
 
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<body>
+<div>
     <form method="POST">
 
         <div>
@@ -53,7 +50,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
         <button type="submit" class="btn btn-primary">Add</button>
     </form>
-
-    
-</body>
-</html> -->
+</div>

@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION["userID"] = $row["userID"];
             $_SESSION["email"] = $row["email"];
     
-            header("location: index.php");
+            header("location: userpage.php");
             exit();
         } else {
             $error = "Invalid login credentials.";

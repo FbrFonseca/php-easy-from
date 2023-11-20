@@ -5,14 +5,14 @@ body {
   }
   
   a {
-    color: #2dc997;
+    color: #8758FF;
     text-decoration: none;
   }
   
   a:hover,
   a:active,
   a:focus {
-    color: #2dca98;
+    color: #8758FF;
     outline: none;
     text-decoration: none;
   }
@@ -44,7 +44,7 @@ body {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #2dc997;
+    background: #8758FF;
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -58,7 +58,7 @@ body {
   }
   
   .back-to-top:hover {
-    background: #49d6a9;
+    background: #8758FF;
     color: #fff;
   }
   
@@ -177,7 +177,7 @@ body {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: #2dc997;
+    background-color: #8758FF;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
@@ -230,7 +230,7 @@ body {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: #2dc997;
+    color: #8758FF;
   }
   
   .navbar .dropdown:hover>ul {
@@ -370,7 +370,7 @@ body {
   .navbar-mobile .dropdown ul a:hover,
   .navbar-mobile .dropdown ul .active:hover,
   .navbar-mobile .dropdown ul li:hover>a {
-    color: #2dc997;
+    color: #8758FF;
   }
   
   .navbar-mobile .dropdown>.dropdown-active {
@@ -463,8 +463,8 @@ body {
   }
   
   #hero .btn-get-started:hover {
-    background: #2dc997;
-    border: 2px solid #2dc997;
+    background: #8758FF;
+    border: 2px solid #8758FF;
   }
   
   /*--------------------------------------------------------------
@@ -601,11 +601,11 @@ body {
     flex-direction: column;
     text-align: center;
     border-radius: 50%;
-    border: 2px solid #2dc997;
+    border: 2px solid #8758FF;
   }
   
   #about .about-container .icon-box .icon i {
-    color: #2dc997;
+    color: #8758FF;
     font-size: 24px;
     line-height: 0;
   }
@@ -638,7 +638,7 @@ body {
   #facts .counters span {
     font-size: 48px;
     display: block;
-    color: #2dc997;
+    color: #8758FF;
   }
   
   #facts .counters p {
@@ -680,7 +680,7 @@ body {
     text-align: center;
     width: 72px;
     height: 72px;
-    background: #2dc997;
+    background: #8758FF;
   }
   
   #services .icon a {
@@ -695,15 +695,15 @@ body {
   
   #services .box:hover .icon {
     background: #fff;
-    border: 2px solid #2dc997;
+    border: 2px solid #8758FF;
   }
   
   #services .box:hover .icon i {
-    color: #2dc997;
+    color: #8758FF;
   }
   
   #services .box:hover .icon a {
-    color: #2dc997;
+    color: #8758FF;
   }
   
   #services .title {
@@ -725,7 +725,7 @@ body {
   /* Call To Action Section
   --------------------------------*/
   #call-to-action {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(call-to-action-bg.jpg) fixed center center;
     background-size: cover;
     padding: 80px 0;
   }
@@ -770,8 +770,8 @@ body {
   }
   
   #call-to-action .cta-btn:hover {
-    background: #2dc997;
-    border: 2px solid #2dc997;
+    background: #8758FF;
+    border: 2px solid #8758FF;
   }
   
   /* Portfolio Section
@@ -806,7 +806,7 @@ body {
   #portfolio #portfolio-flters li:hover,
   #portfolio #portfolio-flters li.filter-active {
     color: #fff;
-    background: #2dc997;
+    background: #8758FF;
   }
   
   #portfolio #portfolio-flters li:last-child {
@@ -897,11 +897,11 @@ body {
     height: 12px;
     background-color: #fff;
     opacity: 1;
-    border: 1px solid #2dc997;
+    border: 1px solid #8758FF;
   }
   
   .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #2dc997;
+    background-color: #8758FF;
   }
   
   .portfolio-details .portfolio-info {
@@ -984,7 +984,7 @@ body {
   }
   
   #team .member .social a:hover {
-    color: #2dc997;
+    color: #8758FF;
   }
   
   #team .member .social i {
@@ -1010,7 +1010,7 @@ body {
   
   #contact .info i {
     font-size: 32px;
-    color: #2dc997;
+    color: #8758FF;
     float: left;
     line-height: 0;
   }
@@ -1050,14 +1050,14 @@ body {
   }
   
   #contact .social-links a:hover {
-    background: #2dc997;
+    background: #8758FF;
     color: #fff;
   }
   
   #contact .php-email-form .error-message {
     display: none;
     color: #fff;
-    background: #ed3c0d;
+    background: red;
     text-align: left;
     padding: 15px;
     font-weight: 600;
@@ -1070,7 +1070,7 @@ body {
   #contact .php-email-form .sent-message {
     display: none;
     color: #fff;
-    background: #18d26e;
+    background: #8758FF;
     text-align: center;
     padding: 15px;
     font-weight: 600;
@@ -1090,7 +1090,7 @@ body {
     width: 24px;
     height: 24px;
     margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
+    border: 3px solid #8758FF;
     border-top-color: #eee;
     animation: animate-loading 1s linear infinite;
   }
@@ -1104,11 +1104,11 @@ body {
   
   #contact .php-email-form input::focus,
   #contact .php-email-form textarea::focus {
-    background-color: #2dc997;
+    background-color: #8758FF;
   }
   
   #contact .php-email-form button[type=submit] {
-    background: #2dc997;
+    background: #8758FF;
     border: 0;
     padding: 10px 24px;
     color: #fff;
@@ -1116,7 +1116,7 @@ body {
   }
   
   #contact .php-email-form button[type=submit]:hover {
-    background: #51d8ad;
+    background: #8758FF;
   }
   
   @keyframes animate-loading {
