@@ -1,5 +1,4 @@
 <?php include "connect.php";
-include "head.php";
 
 $name = "";
 $surname = "";
@@ -27,10 +26,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ?>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
-
-<?php include "header.php" ?>
 
 <body>
     <form method="POST">
@@ -59,4 +56,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     
 </body>
-</html>
+</html> -->

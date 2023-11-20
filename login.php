@@ -1,5 +1,4 @@
 <?php include "connect.php";
-include "head.php";
 
 session_start();
 
@@ -41,30 +40,23 @@ $con->close();
 
 ?>
 
-<html lang="en">
+<main class="text-white">
+    <h2>Login</h2>
+    <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
 
-<body>
-    <?php include "header.php"; ?>
-    <main class="text-white">
-        <h2>Login</h2>
-        <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" required><br>
 
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email" required><br>
+        <label for="password">Password</label>
+        <input type="text" name="password" id="password" required><br>
 
-            <label for="password">Password</label>
-            <input type="text" name="password" id="password" required><br>
+        <input type="submit" value="login">
 
-            <input type="submit" value="login">
+    </form>
 
-        </form>
-
-        <?php
-        if (isset($error)) {
-            echo "<p>$error</p>";
-        }
-        ?>
-    </main>
-    <?php include "footer.php"; ?>
-</body>
-</html>
+    <?php
+    if (isset($error)) {
+        echo "<p>$error</p>";
+    }
+    ?>
+</main>
