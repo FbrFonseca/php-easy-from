@@ -15,6 +15,8 @@ $data = $result->fetch_all(MYSQLI_ASSOC);
 
 
 $con->close();
+
+//separar e organizar os codigos
 ?>
 
 <html lang="en">

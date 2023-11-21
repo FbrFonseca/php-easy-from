@@ -14,7 +14,8 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>User</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li class="dropdown"><a href="#"><span style="color: #5CB8E4;">User</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="login.php">Login</a></li>
               <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -29,7 +30,6 @@
               <li><a href="adduser.php">Sign Up</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -60,7 +60,7 @@
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bi bi-briefcase"></i></div>
-              <h4 class="title"><a href="">Accessible from everywere</a></h4>
+              <h4 class="title"><a href="">Accessible from anywhere</a></h4>
               <p class="description">Access you forms from everywere, saving the effort of carring loads of paper and helping the environment</p>
             </div>
 
