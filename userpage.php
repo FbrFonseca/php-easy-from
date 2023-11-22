@@ -2,11 +2,16 @@
 <?php 
 include "connect.php";
 
-$query = "SELECT * FROM user_table";
-$result = $con->query($query);
+session_start();
 
-$data = $result->fetch_all(MYSQLI_ASSOC);
-echo json_encode($data);
+// Check if the user is logged in, if not then redirect to login page
+if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true){
+    header('Location: login.php');
+    exit;
+}
+
+
+echo "voce esta logado, esta e a area do usuario"
 ?>
 
 
