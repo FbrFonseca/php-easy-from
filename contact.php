@@ -1,16 +1,16 @@
 <?php include "head.php"; ?>
 <?php include "header.php"; ?>
 
-<section id="contact" class="bg-gradient">
+<section id="contact" class="bg-gradient pb-0">
   <div class="container">
     <div class="section-header">
       <h3 class="section-title">Contact</h3>
-      <p class="section-description">Any questions? Don't be shy, break the ice and we will sort you out!</p>
+      <p class="section-description text-black">Any questions? Don't be shy, break the ice and we will sort you out!</p>
     </div>
   </div>
 
 
-  <div class="container mt-5">
+  <div class="container pt-5 mt-5">
     <div class="row justify-content-center">
 
       <div class="col-lg-3 col-md-4">

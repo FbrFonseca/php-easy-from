@@ -8,7 +8,7 @@
     <div class="container">
       <div class="copyright">
         <p>&copy; <?php echo date("Y"); ?> - <strong>EASY-FORM</strong>. All rights reserved.</p>
-        <p>Today's date: <?php echo date("F j, Y"); ?></p>
+        <p><?php echo date("j F, Y"); ?></p>
       </div>
     </div>
   </footer>

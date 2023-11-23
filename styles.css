@@ -156,7 +156,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #8758FF;
   font-size: 14px;
   padding: 0 4px;
   white-space: nowrap;
@@ -1000,7 +1000,7 @@ section {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #f7f7f7;
+  background: #818FB4;
   padding: 80px 0 40px 0;
 }
 
@@ -1010,7 +1010,7 @@ section {
 }
 
 #contact .info {
-  color: #333333;
+  color: #000;
 }
 
 #contact .info i {
@@ -1025,6 +1025,7 @@ section {
   margin-bottom: 20px;
   line-height: 22px;
   font-size: 14px;
+  color: #000;
 }
 
 #contact .info .email p {
@@ -1160,16 +1161,19 @@ section {
 ----------------------------------------------------------*/
 
 .gradient-custom {
-  background: #8758FF;
+  background: #818FB4;
 }
 
 /*---------------------------------------------------------- 
 #Add User Page
 ----------------------------------------------------------*/
+body {
+  background: #818FB4;
+}
 .note{
   text-align: center;
   height: 80px;
-  background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+  background: #3508f8;
   color: #fff;
   font-weight: bold;
   line-height: 80px;
@@ -1177,7 +1181,6 @@ section {
 
 .form-content{
   padding: 5%;
-  border: 1px solid #ced4da;
   margin-bottom: 2%;
 }
 
