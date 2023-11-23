@@ -1,17 +1,16 @@
 <!-- user area, needs: form maker, forms filled -->
-<?php 
+<?php
 include "connect.php";
 
 session_start();
 
 // Check if the user is logged in, if not then redirect to login page
-if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true){
+if (!isset($_SESSION['userID'])) {
     header('Location: login.php');
     exit;
 }
 
-
-echo "voce esta logado, esta e a area do usuario"
 ?>
 
 
+<h3>AREA DO USUARIO</h3>

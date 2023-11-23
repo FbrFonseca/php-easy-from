@@ -1,4 +1,3 @@
-<!-- ======= Footer ======= -->
 <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -8,7 +7,8 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; <strong>EASY-FORM</strong>. All Rights Reserved
+        <p>&copy; <?php echo date("Y"); ?> - <strong>EASY-FORM</strong>. All rights reserved.</p>
+        <p>Today's date: <?php echo date("F j, Y"); ?></p>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>

@@ -6,7 +6,7 @@ $email = "";
 $password = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
+    echo "socorro!";
     $name = $_POST["name"];
     $surname = $_POST["surname"];
     $email = $_POST["email"];
@@ -20,80 +20,45 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = "";
     $password = "";
 
-    header("Location: adduser.php");
+    header("Location: login.php");
     exit;
 }
 
 ?>
 
 
-<?php include "head.php"; ?> 
+<?php include "head.php"; ?>
 <?php include "header.php"; ?>
 
-<div class="container register-form">
+<div class="mt-5 pt-5">
     <div class="form">
+
         <div class="note">
-            <p>This is a simpleRegister Form made using Boostrap.</p>
+            <p>Say goodbye to boring forms!</p>
         </div>
-        
-        <div class="form-content">
-            <div class="row">
-                <div class="col-md-6">  
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Name *" value=""/>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Phone Number *" value=""/>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Password *" value=""/>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Confirm Password *" value=""/>
-                    </div>
-                </div>
+
+        <form class="form-content" method="POST">
+
+            <div class="form-group py-2">
+                <input type="text" class="form-control" placeholder="Your Name *" name="name" value="<?php echo $name; ?>" />
             </div>
-            <button type="button" class="btnSubmit">Submit</button>
-        </div>
+
+            <div class="form-group py-2">
+                <input type="text" class="form-control" placeholder="Your Surname *" name="surname" value="<?php echo $surname; ?>" />
+            </div>
+
+            <div class="form-group py-2">
+                <input type="text" class="form-control" placeholder="Your Email *" name="email" value="<?php echo $email; ?>" />
+            </div>
+
+            <div class="form-group py-2">
+                <input type="text" class="form-control" placeholder="Your Password *" name="password" value="<?php echo $password; ?>" />
+            </div>
+
+            <button type="submit" class="btnSubmit">Submit</button>
+        </form>
     </div>
 </div>
 
 
 <?php include "footer.php"; ?>
-
-
-
-
-
-
-
-
-
-
-<!-- <div>
-    <form method="POST">
-
-        <div>
-            <h3>Name</h3>
-            <input type="text" name="name" value="<?php echo $name; ?>">
-        </div>
-        
-        <div>
-            <h3>Surname</h3>
-            <input type="text" name="surname" value="<?php echo $surname; ?>">
-        </div>
-
-        <div>
-            <h3>Email</h3>
-            <input type="text" name="email" value="<?php echo $email; ?>">
-        </div>
-
-        <div>
-            <h3>Password</h3>
-            <input type="text" name="password" value="<?php echo $password; ?>">
-        </div>
-        <button type="submit" class="btn btn-primary">Add</button>
-    </form>
-</div> -->

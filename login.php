@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   //looking for only one account
   if ($result->num_rows == 1) {
-    
+
     $row = $result->fetch_assoc();
 
     //password check
@@ -21,19 +21,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       $_SESSION["userID"] = $row["userID"];
 
-      header("location: userpage.php");
+      header("Location: userpage.php");
 
 
       exit();
     } else {
       $error = "Invalid login credentials.";
     }
-
   } else {
     $error =  "Wrong email.";
   }
-
-  
 }
 $con->close();
 ?>
@@ -61,11 +58,11 @@ $con->close();
 
               <!-- password to login -->
               <div class="form-outline form-white mb-4">
-                <input type="password" name="password" id="password" required class="form-control form-control-lg">
+                <input type="text" name="password" id="password" required class="form-control form-control-lg">
                 <label class="form-label" for="password">Password</label>
               </div>
 
-              <input class="btn btn-outline-light btn-lg px-5" type="submit" value="Login">
+              <button class="btn btn-outline-light btn-lg px-5" type="submit">Login </button>
 
               <?php
               if (isset($error)) {
