@@ -19,7 +19,7 @@ $con->close();
 //separar e organizar os codigos
 ?>
 
-<html lang="en" class="overflow-y-scroll">
+<html lang="en" class="">
     <?php include "head.php"; ?>
     <?php include "body.php"; ?>
     <?php include "footer.php"; ?>

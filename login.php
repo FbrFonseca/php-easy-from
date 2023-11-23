@@ -1,42 +1,9 @@
-<?php include "connect.php";
-
-session_start();
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  //getting email and pass
-  $email = $_POST["email"];
-  $password = $_POST["password"];
-
-  //checking credentials
-  $query = "SELECT userID, email, password FROM user_table WHERE email = '$email'";
-  $result = $con->query($query);
-
-  //looking for only one account
-  if ($result->num_rows == 1) {
-
-    $row = $result->fetch_assoc();
-
-    //password check
-    if ($password == $row["password"]) {
-
-      $_SESSION["userID"] = $row["userID"];
-
-      header("Location: userpage.php");
-
-
-      exit();
-    } else {
-      $error = "Invalid login credentials.";
-    }
-  } else {
-    $error =  "Wrong email.";
-  }
-}
-$con->close();
-?>
-
+<?php include "connect.php"; ?>
 <?php include "head.php"; ?>
 <?php include "header.php"; ?>
+<?php session_start(); ?>
+<?php include "credentials.php"; ?>
+
 
 <section class="vh-100 gradient-custom">
   <div class="container py-5 h-100">
@@ -73,7 +40,7 @@ $con->close();
             </form>
 
             <div>
-              <p class="mb-0">Don't have an account? <a href="adduser.php" class="text-white-50 fw-bold">Sign Up</a>
+              <p class="mb-0">Don't have an account? <a href="signup.php" class="text-white-50 fw-bold">Sign Up</a>
               </p>
             </div>
 

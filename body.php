@@ -5,7 +5,7 @@
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
       <h1><span style="color: #8758FF">Welcome</span> to <span style="font-family: Roboto">Easy-Form</span>!</h1>
       <h2>We are an organizing tool for quick forms.</h2>
-      <a href="adduser.php" class="btn-get-started">Get Started</a>
+      <a href="signup.php" class="btn-get-started">Get Started</a>
     </div>
   </section><!-- End Hero Section -->
 
@@ -147,7 +147,7 @@
             <p class="cta-text">Do not waste time! Get started now with Freemium and ilimited access to the Easy-Form Platinum.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="adduser.php">Sign up</a>
+            <a class="cta-btn align-middle" href="signup.php">Sign up</a>
           </div>
         </div>
 
