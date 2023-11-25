@@ -11,7 +11,6 @@ $result = $con->query($query);
 
 $data = $result->fetch_all(MYSQLI_ASSOC);
 
-//echo json_encode($data);
 
 
 $con->close();
@@ -20,7 +19,7 @@ $con->close();
 ?>
 
 <html lang="en" class="">
-    <?php include "head.php"; ?>
+    <?php include "head.php"; ?> <!-- check if header of head -->
     <?php include "body.php"; ?>
     <?php include "footer.php"; ?>
 </html>

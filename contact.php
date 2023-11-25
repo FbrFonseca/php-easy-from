@@ -5,7 +5,7 @@
   <div class="container">
     <div class="section-header">
       <h3 class="section-title">Contact</h3>
-      <p class="section-description text-black">Any questions? Don't be shy, break the ice and we will sort you out!</p>
+      <p class="section-description text-black">Any questions? Don't be shy, break the ice so we will sort you out!</p>
     </div>
   </div>
 
