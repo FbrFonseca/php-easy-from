@@ -2,28 +2,28 @@
 <?php include "head.php"; ?>
 <?php include "header.php"; ?>
 
-<div class="mt-5 pt-5">
-    <div class="form">
+<div class="my-5 py-5">
+    <div class="d-flex flex-column justify-content-around align-items-center">
 
-        <div class="note">
-            <p>Say goodbye to boring forms!</p>
+        <div class="">
+            <h3 class="text-white">Goodbye Boring Forms👋!</h3>
         </div>
 
-        <form class="form-content" method="POST">
+        <form class="w-50" method="POST">
 
-            <div class="form-group py-2">
+            <div class=" py-2">
                 <input type="text" class="form-control" placeholder="Your Name *" name="name" value="<?php echo $name; ?>" />
             </div>
 
-            <div class="form-group py-2">
+            <div class=" py-2">
                 <input type="text" class="form-control" placeholder="Your Surname *" name="surname" value="<?php echo $surname; ?>" />
             </div>
 
-            <div class="form-group py-2">
+            <div class=" py-2">
                 <input type="text" class="form-control" placeholder="Your Email *" name="email" value="<?php echo $email; ?>" />
             </div>
 
-            <div class="form-group py-2">
+            <div class=" py-2">
                 <input type="text" class="form-control" placeholder="Your Password *" name="password" value="<?php echo $password; ?>" />
             </div>
 

@@ -17,10 +17,38 @@ if (!isset($_SESSION['userID'])) {
 <?php include "head.php" ?>
 <?php include "header.php" ?>
 
-<section>
-    <div class="d-flex justify-content-around align-items-center pt-5 mt-5 text-white">
-        <div>New Form</div>
-        <div>My Applications</div>
+<section class="">
+    <div class="d-flex justify-content-around align-items-center text-white py-5 my-5">
+        <div class="py-5">
+            <h3>New Form</h3>
+            <form class="" method="POST">
+
+                <div class="">
+                    <input type="text" class="form-control" placeholder="Your Name *" name="name" value="<?php echo $name; ?>" />
+                </div>
+
+                <div class="">
+                    <input type="text" class="form-control" placeholder="Your Surname *" name="surname" value="<?php echo $surname; ?>" />
+                </div>
+
+                <div class="">
+                    <input type="text" class="form-control" placeholder="Your Email *" name="email" value="<?php echo $email; ?>" />
+                </div>
+
+                <div class="">
+                    <input type="text" class="form-control" placeholder="Your Password *" name="password" value="<?php echo $password; ?>" />
+                </div>
+
+                <button type="submit" class="btnSubmit">Submit</button>
+            </form>
+        </div>
+        <div>
+            <h3>My Applications</h3>
+            <p>* 1 form</p>
+            <p>* 1 form</p>
+            <p>* 1 form</p>
+            <p>* 1 form</p>
+        </div>
     </div>
 </section>
 

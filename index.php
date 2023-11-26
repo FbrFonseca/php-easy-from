@@ -19,7 +19,7 @@ $con->close();
 ?>
 
 <html lang="en" class="">
-    <?php include "head.php"; ?> <!-- check if header of head -->
+    <?php include "head.php"; ?>
     <?php include "body.php"; ?>
     <?php include "footer.php"; ?>
 </html>

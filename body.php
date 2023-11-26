@@ -1,5 +1,5 @@
 <body>
-<?php include "header.php"; ?>
+  <?php include "header.php"; ?>
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
@@ -179,7 +179,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="pic"><img src="assets/img/team-2.jpg" alt=""></div>
-              <h4>Fabricio Fonseca</h4>
+              <h4>Fabricia Fonseca</h4>
               <span>Product Manager</span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -193,7 +193,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="pic"><img src="assets/img/team-3.jpg" alt=""></div>
-              <h4>Fabricio Fonseca</h4>
+              <h4>Fabiana Fonseca</h4>
               <span>CTO</span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -207,7 +207,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="member" data-aos="fade-up" data-aos-delay="400">
               <div class="pic"><img src="assets/img/team-4.jpg" alt=""></div>
-              <h4>Fabricio Fonseca</h4>
+              <h4>Francisca Fonseca</h4>
               <span>Accountant</span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -224,7 +224,7 @@
 
   </main><!-- End #main -->
 
-  
+
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
