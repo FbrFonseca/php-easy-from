@@ -6,7 +6,7 @@ $email = "";
 $password = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    echo "socorro!";
+
     $name = $_POST["name"];
     $surname = $_POST["surname"];
     $email = $_POST["email"];
@@ -22,6 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     header("Location: login.php");
     exit;
+    
 }
 
 ?>

@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $password = $_POST["password"];
 
   //checking credentials
-  $query = "SELECT userID, name, email, password FROM user_table WHERE email = '$email'";
+  $query = "SELECT userID, name, surname, email, password FROM user_table WHERE email = '$email'";
   $result = $con->query($query);
 
   //looking for only one account
@@ -21,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       $_SESSION["userID"] = $row["userID"];
       $_SESSION["name"] = $row["name"];
+      $_SESSION["surname"] = $row["surname"];
       $_SESSION["email"] = $row["email"];
 
       
