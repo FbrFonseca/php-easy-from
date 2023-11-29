@@ -3,7 +3,7 @@
 if (isset($_GET["formID"])) {
     $formID = $_GET["formID"];
 
-    $sql = "DELETE FROM student WHERE stuId = '$formID' ";
+    $sql = "DELETE FROM form_table WHERE formID = '$formID' ";
     mysqli_query($con, $sql);
 }
 

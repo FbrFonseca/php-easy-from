@@ -25,7 +25,7 @@
 
               <!-- password to login -->
               <div class="form-outline form-white mb-4">
-                <input type="text" name="password" id="password" required class="form-control form-control-lg">
+                <input type="password" name="password" id="password" required class="form-control form-control-lg">
                 <label class="form-label" for="password">Password</label>
               </div>
 

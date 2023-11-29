@@ -20,11 +20,11 @@
             </div>
 
             <div class=" py-2">
-                <input type="text" class="form-control" placeholder="Your Email *" name="email" value="<?php echo $email; ?>" />
+                <input type="email" class="form-control" placeholder="Your Email *" name="email" value="<?php echo $email; ?>" />
             </div>
 
             <div class=" py-2">
-                <input type="text" class="form-control" placeholder="Your Password *" name="password" value="<?php echo $password; ?>" />
+                <input type="password" class="form-control" placeholder="Your Password *" name="password" value="<?php echo $password; ?>" />
             </div>
 
             <button type="submit" class="btnSubmit">Submit</button>

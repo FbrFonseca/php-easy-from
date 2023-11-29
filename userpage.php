@@ -13,30 +13,6 @@ if (!isset($_SESSION['userID']) || empty($_SESSION['userID'])) {
 
 ?>
 
-<script>
-    function cancelForm(formID) {
-        if (confirm("Are you sure you want to cancel this form?")) {
-            // Send an AJAX request to a PHP script for form deletion
-            $.ajax({
-                url: 'deleteform.php', // Replace with the actual PHP script URL
-                type: 'POST',
-                data: {
-                    formID: formID
-                },
-                success: function(response) {
-                    // Handle the response (e.g., display a success message)
-                    alert(response);
-                    // Optionally, you can refresh the table or update the UI
-                },
-                error: function(xhr, status, error) {
-                    // Handle errors (e.g., display an error message)
-                    alert("Error: " + error);
-                }
-            });
-        }
-    }
-</script>
-
 <?php include "head.php" ?>
 <?php include "header.php" ?>
 
@@ -89,11 +65,10 @@ if (!isset($_SESSION['userID']) || empty($_SESSION['userID'])) {
                             <td> <?= $row['formID']; ?> </td>
                             <td> <?= $row['holidayStart']; ?> </td>
                             <td> <?= $row['holidayEnd']; ?> </td>
-                            <button class="btn btn-danger" onclick="cancelForm(<?= $row['formID']; ?>)">Cancel</button>
-                        </tr>
-                    <?php
+                            <a class="btn btn-danger" href="deleteform.php?formID=<?= $row['formID']; ?>">Delete</a>
+                        <?php
                     }
-                    ?>
+                        ?>
                 <tbody>
             </table>
 
