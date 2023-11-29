@@ -53,26 +53,3 @@
 
 
 <?php include "footer.php"; ?>
-
-<!-- //looking for only one account
-  if ($result->num_rows == 1) {
-    $row = $result->fetch_assoc();
-
-    //password check
-    if ($result->num_rows == 1) {
-
-      $row = $result->fetch_assoc();
-
-      $_SESSION["userID"] = $row["userID"];
-
-      header("location: userpage.php");
-
-
-      exit();
-    } else {
-      $error = "Invalid login credentials.";
-    }
-
-  } else {
-    $error =  "Wrong email.";
-  } -->
