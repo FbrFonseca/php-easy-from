@@ -5,7 +5,7 @@
 <div class="my-5 py-5">
     <div class="d-flex flex-column justify-content-around align-items-center">
 
-        <div class="">
+        <div class="py-5">
             <h3 class="text-white">Goodbye Boring Forms👋!</h3>
         </div>
 

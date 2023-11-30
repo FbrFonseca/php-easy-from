@@ -8,7 +8,7 @@
 <section id="contact" class="bg-gradient pb-0">
   <div class="container">
     <div class="section-header">
-      <h3 class="section-title">Contact</h3>
+      <h3 class="section-title py-5">Contact</h3>
       <p class="section-description text-black">Any questions? Don't be shy, break the ice so we will sort you out!</p>
     </div>
   </div>
@@ -48,7 +48,7 @@
 
       <div class="col-lg-5 col-md-8">
         <div class="">
-          <form method="POST" role="form" >
+          <form method="POST" role="form">
             <div class="form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required value="<?php echo isset($_SESSION["name"]) ? $_SESSION["name"] : ''; ?>">
             </div>
