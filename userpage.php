@@ -38,7 +38,7 @@ if (!isset($_SESSION['userID']) || empty($_SESSION['userID'])) {
                 </div>
                 <p>End date</p>
 
-                <button type="submit" class="btn btn-primary mt-2">Submit</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
 

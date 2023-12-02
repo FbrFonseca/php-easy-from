@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   //getting email and pass
   $email = $_POST["email"];
   $password = $_POST["password"];
-
+  
   //checking credentials
   $query = "SELECT userID, name, surname, email, password FROM user_table WHERE email = '$email'";
   $result = $con->query($query);
@@ -24,7 +24,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $_SESSION["surname"] = $row["surname"];
       $_SESSION["email"] = $row["email"];
 
-      
 
       header("Location: userpage.php");
 

@@ -13,11 +13,11 @@
   </div>
 </footer>
 
-<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/styling/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/styling/aos/aos.js"></script>
+<script src="assets/styling/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/styling/glightbox/js/glightbox.min.js"></script>
+<script src="assets/styling/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/styling/swiper/swiper-bundle.min.js"></script>
+<script src="assets/styling/php-email-form/validate.js"></script>
 <script src="main.js"></script>
