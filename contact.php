@@ -61,7 +61,7 @@
             <div class="form-group mt-3">
               <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
             </div>
-            <div class="text-center"><button class="btn btn-primary" type="submit">Send Message</button></div>
+            <div class="text-center mt-3"><button class="btn btn-primary" type="submit">Send Message</button></div>
           </form>
         </div>
       </div>
