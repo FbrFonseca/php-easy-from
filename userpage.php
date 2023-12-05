@@ -1,4 +1,4 @@
-<!-- user area, needs: form maker, forms filled -->
+
 <?php
 include "connect.php";
 include "credentials.php";
