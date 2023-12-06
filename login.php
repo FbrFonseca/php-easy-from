@@ -1,8 +1,8 @@
-<?php include "connect.php"; ?>
-<?php include "head.php"; ?>
-<?php include "header.php"; ?>
-<?php session_start(); ?>
-<?php include "credentials.php"; ?>
+<?php include "connect.php"; 
+include "head.php"; 
+include "header.php"; 
+session_start(); 
+include "credentials.php"; ?>
 
 
 <section class="vh-100 gradient-custom">
